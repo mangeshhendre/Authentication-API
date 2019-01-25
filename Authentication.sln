@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationServer", "AuthenticationServer\AuthenticationServer.csproj", "{4AF35F10-2663-43C2-A7C7-600EF2D81381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deliverables", "Deliverables", "{AC23E546-1AB6-45FD-8462-6F1EBD54BE04}"
+	ProjectSection(SolutionItems) = preProject
+		Deliverables.xml = Deliverables.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{889F7B99-BBAA-4A0D-84D8-EA9FB5510287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationTestConsole", "AuthenticationTestConsole\AuthenticationTestConsole.csproj", "{E34BBEC1-CA72-4689-92AB-377DCF088A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSResolver", "..\Third Party\DNSResolver\DNSResolver.csproj", "{48F103FE-BA04-457C-BA70-9847A29E0368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C2CD335-4F9E-4751-BD57-EF245F25E213}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary.Crypto", "..\MyLibrary-Crypto\MyLibrary.Crypto.csproj", "{3546DFF2-A8A7-4224-9B05-0E7BA3506661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF35F10-2663-43C2-A7C7-600EF2D81381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF35F10-2663-43C2-A7C7-600EF2D81381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF35F10-2663-43C2-A7C7-600EF2D81381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF35F10-2663-43C2-A7C7-600EF2D81381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34BBEC1-CA72-4689-92AB-377DCF088A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34BBEC1-CA72-4689-92AB-377DCF088A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34BBEC1-CA72-4689-92AB-377DCF088A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34BBEC1-CA72-4689-92AB-377DCF088A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F103FE-BA04-457C-BA70-9847A29E0368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F103FE-BA04-457C-BA70-9847A29E0368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F103FE-BA04-457C-BA70-9847A29E0368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F103FE-BA04-457C-BA70-9847A29E0368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3546DFF2-A8A7-4224-9B05-0E7BA3506661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3546DFF2-A8A7-4224-9B05-0E7BA3506661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3546DFF2-A8A7-4224-9B05-0E7BA3506661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3546DFF2-A8A7-4224-9B05-0E7BA3506661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E34BBEC1-CA72-4689-92AB-377DCF088A77} = {889F7B99-BBAA-4A0D-84D8-EA9FB5510287}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9025B97-ECEF-4122-9729-5C4F3EBC9FC9}
+	EndGlobalSection
+EndGlobal
